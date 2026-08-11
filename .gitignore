@@ -78,6 +78,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 **/run/
+**/runs/
 **/logs/
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Intellij
