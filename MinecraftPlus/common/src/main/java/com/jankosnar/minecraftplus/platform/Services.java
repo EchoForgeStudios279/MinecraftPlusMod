@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.jankosnar.minecraftplus.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.jankosnar.minecraftplus.Constants;
+import com.jankosnar.minecraftplus.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

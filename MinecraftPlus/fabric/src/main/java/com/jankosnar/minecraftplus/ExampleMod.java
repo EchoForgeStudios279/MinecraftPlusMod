@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.jankosnar.minecraftplus;
 
 import net.fabricmc.api.ModInitializer;
 

@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package com.jankosnar.minecraftplus.platform.services;
 
 public interface IPlatformHelper {
 
