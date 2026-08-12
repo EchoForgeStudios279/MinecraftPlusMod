@@ -49,7 +49,6 @@ public final class FabricPotions
                     ModPotions.createStrongResistencePotion()
             );
 
-
     public static void register()
     {
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder ->
@@ -66,7 +65,7 @@ public final class FabricPotions
             );
             builder.addMix(
                     Potions.AWKWARD,
-                    Items.GOLDEN_CARROT,
+                    Items.ARMADILLO_SCUTE,
                     RESISTENCE
             );
             builder.addMix(

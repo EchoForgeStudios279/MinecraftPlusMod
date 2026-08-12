@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.0.2-1] - 2026-12-08
+
+### Changed
+
+- Brewing Recipe for Resistance potion is now Armadilo Scute.
+- New Git Push names.
+
 ## [0.0.2] - 2026-12-08
 
 ### Added

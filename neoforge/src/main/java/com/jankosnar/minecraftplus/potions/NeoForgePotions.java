@@ -70,7 +70,7 @@ public final class NeoForgePotions
         );
         event.getBuilder().addMix(
                 Potions.AWKWARD,
-                Items.GOLDEN_CARROT,
+                Items.ARMADILLO_SCUTE,
                 RESISTANCE
         );
         event.getBuilder().addMix(
