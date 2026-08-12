@@ -1,6 +1,6 @@
 package com.jankosnar.minecraftplus;
 
-public class MinecraftPlus {
+public final class MinecraftPlus {
 
     private MinecraftPlus()
     {

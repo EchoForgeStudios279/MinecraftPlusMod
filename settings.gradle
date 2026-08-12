@@ -25,13 +25,6 @@ pluginManagement {
                 includeGroupAndSubgroups("org.spongepowered")
             }
         }
-        exclusiveContent {
-            forRepository {
-            }
-            filter {
-                includeGroupAndSubgroups('net.minecraftforge')
-            }
-        }
     }
 }
 
