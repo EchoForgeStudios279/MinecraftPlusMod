@@ -2,5 +2,10 @@
   "item.minecraft.potion.effect.minecraftplus.haste": "Trank der Eile",
   "item.minecraft.splash_potion.effect.minecraftplus.haste": "Wurftrank der Eile",
   "item.minecraft.lingering_potion.effect.minecraftplus.haste": "Verweiltrank der Eile",
-  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Pfeil der Eile"
+  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Pfeil der Eile",
+
+  "item.minecraft.potion.effect.minecraftplus.resistance": "Trank der Resistenz",
+  "item.minecraft.splash_potion.effect.minecraftplus.resistance": "Wurftrank der Resistenz",
+  "item.minecraft.lingering_potion.effect.minecraftplus.resistance": "Verweiltrank der Resistenz",
+  "item.minecraft.tipped_arrow.effect.minecraftplus.resistance": "Pfeil der Resistenz"
 }

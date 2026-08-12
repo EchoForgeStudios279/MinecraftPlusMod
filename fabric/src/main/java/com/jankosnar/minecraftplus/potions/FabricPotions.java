@@ -30,6 +30,24 @@ public final class FabricPotions
                     ),
                     ModPotions.createStrongHastePotion()
             );
+    public static final Holder<Potion> RESISTENCE =
+            Registry.registerForHolder(
+                    BuiltInRegistries.POTION,
+                    ResourceLocation.fromNamespaceAndPath(
+                            Constants.MOD_ID,
+                            ModPotions.RESISTANCE_ID
+                    ),
+                    ModPotions.createResistencePotion()
+            );
+    public static final Holder<Potion> STRONG_RESISTENCE =
+            Registry.registerForHolder(
+                    BuiltInRegistries.POTION,
+                    ResourceLocation.fromNamespaceAndPath(
+                            Constants.MOD_ID,
+                            ModPotions.STRONG_RESISTANCE_ID
+                    ),
+                    ModPotions.createStrongResistencePotion()
+            );
 
 
     public static void register()
@@ -45,6 +63,16 @@ public final class FabricPotions
                     HASTE,
                     Items.GLOWSTONE_DUST,
                     STRONG_HASTE
+            );
+            builder.addMix(
+                    Potions.AWKWARD,
+                    Items.GOLDEN_CARROT,
+                    RESISTENCE
+            );
+            builder.addMix(
+                    RESISTENCE,
+                    Items.GLOWSTONE_DUST,
+                    STRONG_RESISTENCE
             );
         });
     }

@@ -32,6 +32,17 @@ public final class NeoForgePotions
                     ModPotions.STRONG_HASTE_ID,
                     ModPotions::createStrongHastePotion
             );
+    public static final DeferredHolder<Potion, Potion> RESISTANCE =
+            POTIONS.register(
+                    ModPotions.RESISTANCE_ID,
+                    ModPotions::createResistencePotion
+            );
+    public static final DeferredHolder<Potion, Potion> STRONG_RESISTANCE =
+            POTIONS.register(
+                    ModPotions.STRONG_RESISTANCE_ID,
+                    ModPotions::createStrongResistencePotion
+            );
+
 
     public static void register(IEventBus modBus)
     {
@@ -56,6 +67,16 @@ public final class NeoForgePotions
                 HASTE,
                 Items.GLOWSTONE_DUST,
                 STRONG_HASTE
+        );
+        event.getBuilder().addMix(
+                Potions.AWKWARD,
+                Items.GOLDEN_CARROT,
+                RESISTANCE
+        );
+        event.getBuilder().addMix(
+                RESISTANCE,
+                Items.GLOWSTONE_DUST,
+                STRONG_RESISTANCE
         );
     }
 }

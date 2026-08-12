@@ -2,5 +2,10 @@
   "item.minecraft.potion.effect.minecraftplus.haste": "Potion of Haste",
   "item.minecraft.splash_potion.effect.minecraftplus.haste": "Splash Potion of Haste",
   "item.minecraft.lingering_potion.effect.minecraftplus.haste": "Lingering Potion of Haste",
-  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Arrow of Haste"
+  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Arrow of Haste",
+
+  "item.minecraft.potion.effect.minecraftplus.resistance": "Potion of Resistance",
+  "item.minecraft.splash_potion.effect.minecraftplus.resistance": "Splash Potion of Resistance",
+  "item.minecraft.lingering_potion.effect.minecraftplus.resistance": "Lingering Potion of Resistance",
+  "item.minecraft.tipped_arrow.effect.minecraftplus.resistance": "Arrow of Resistance"
 }

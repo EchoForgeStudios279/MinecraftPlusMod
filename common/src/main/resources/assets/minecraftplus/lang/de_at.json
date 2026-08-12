@@ -2,5 +2,10 @@
   "item.minecraft.potion.effect.minecraftplus.haste": "Tronk des Stresses",
   "item.minecraft.splash_potion.effect.minecraftplus.haste": "Wurftronk des Stresses",
   "item.minecraft.lingering_potion.effect.minecraftplus.haste": "Vaweiltronk des Stresses",
-  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Pfeil des Stresses"
+  "item.minecraft.tipped_arrow.effect.minecraftplus.haste": "Pfeil des Stresses",
+
+  "item.minecraft.potion.effect.minecraftplus.resistance": "Tronk der Resistenz",
+  "item.minecraft.splash_potion.effect.minecraftplus.resistance": "Wurftronk der Resistenz",
+  "item.minecraft.lingering_potion.effect.minecraftplus.resistance": "Vaweiltronk der Resistenz",
+  "item.minecraft.tipped_arrow.effect.minecraftplus.resistance": "Pfeil der Resistenz"
 }

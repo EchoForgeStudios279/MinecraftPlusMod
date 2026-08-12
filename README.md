@@ -17,13 +17,7 @@ Minecraft style.
 ### Potions
 
 - Potion of Haste
-    - Haste I for 3 minutes
-    - Brewed using an Awkward Potion and a Prismarine Shard
-    - Can rarely be found in Buried Treasure
-
-- Strong Potion of Haste
-    - Haste II for 1 minute 30 seconds
-    - Created by adding Glowstone Dust to a Potion of Haste
+- Potion of Resistance
 
 More features will be added over time.
 
