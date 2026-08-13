@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.0.2-2] - 2026-13-08
+
+### Added
+
+- Resistance Documentation
+- Tipped Arrows into the Potion Documentations
+
 ## [0.0.2-1] - 2026-12-08
 
 ### Changed

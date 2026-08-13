@@ -2,49 +2,41 @@
 
 ## Overview
 
-Adds Haste potions to Minecraft.
+Adds Resistance potions to Minecraft.
 
 ## Registry IDs
 
 Normal:
-`minecraftplus:haste`
+`minecraftplus:resistance`
 
 Strong:
-`minecraftplus:strong_haste`
+`minecraftplus:strong_resistance`
 
 ## Effects
 
 ### Normal
 
-- Effect: Haste I
+- Effect: Resistance I
 - Duration: 3:00
 
 ### Strong
 
-- Effect: Haste II
+- Effect: Resistance II
 - Duration: 1:30
 
 ## Brewing
 
-### Potion of Haste
+### Potion of Resistance
 
-Awkward Potion + Prismarine Shard
+Awkward Potion + Armadilo Scute
 
-### Strong Potion of Haste
+### Strong Potion of Resistance
 
-Potion of Haste + Glowstone Dust
+Potion of Resistance + Glowstone Dust
 
-### Arrow of Haste
+### Arrow of Resistance
 
 Basicly like how you make any other Tipped Arrow.
-
-## Loot
-
-Potion of Haste can appear in Buried Treasure.
-
-Chance: 28%
-
-The strong variant does not generate as loot.
 
 ## Implementation
 
@@ -60,17 +52,11 @@ Contains shared potion definitions.
 
 Registers the potions and brewing recipes through Fabric API.
 
-`FabricLoot.java`
-
-Injects the loot table into Buried Treasure.
-
 ### NeoForge
 
 `NeoForgePotions.java`
 
 Registers potions through DeferredRegister and adds brewing recipes.
-
-NeoForge uses a Global Loot Modifier for Buried Treasure.
 
 ## Resources
 
